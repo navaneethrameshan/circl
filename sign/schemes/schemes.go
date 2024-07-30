@@ -6,16 +6,18 @@
 //	Ed448
 //	Ed25519-Dilithium2
 //	Ed448-Dilithium3
+//	Dilithium5
 package schemes
 
 import (
+	"github.com/navaneethrameshan/circl/sign/dilithium5scheme"
 	"strings"
 
-	"github.com/cloudflare/circl/sign"
-	"github.com/cloudflare/circl/sign/ed25519"
-	"github.com/cloudflare/circl/sign/ed448"
-	"github.com/cloudflare/circl/sign/eddilithium2"
-	"github.com/cloudflare/circl/sign/eddilithium3"
+	"github.com/navaneethrameshan/circl/sign"
+	"github.com/navaneethrameshan/circl/sign/ed25519"
+	"github.com/navaneethrameshan/circl/sign/ed448"
+	"github.com/navaneethrameshan/circl/sign/eddilithium2"
+	"github.com/navaneethrameshan/circl/sign/eddilithium3"
 )
 
 var allSchemes = [...]sign.Scheme{
@@ -23,6 +25,7 @@ var allSchemes = [...]sign.Scheme{
 	ed448.Scheme(),
 	eddilithium2.Scheme(),
 	eddilithium3.Scheme(),
+	dilithium5scheme.Scheme(),
 }
 
 var allSchemeNames map[string]sign.Scheme
