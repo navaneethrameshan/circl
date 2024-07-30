@@ -7,8 +7,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/cloudflare/circl/sign"
-	"github.com/cloudflare/circl/sign/schemes"
+	"github.com/navaneethrameshan/circl/sign"
+	"github.com/navaneethrameshan/circl/sign/schemes"
 )
 
 var (

@@ -47,7 +47,7 @@ linters-settings:
         allow:
           - $gostd
           - github.com/bwesterb/go-ristretto
-          - github.com/cloudflare/circl
+          - github.com/navaneethrameshan/circl
   funlen:
     lines: 120
     statements: 80

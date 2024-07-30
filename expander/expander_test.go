@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/cloudflare/circl/expander"
-	"github.com/cloudflare/circl/internal/test"
-	"github.com/cloudflare/circl/xof"
+	"github.com/navaneethrameshan/circl/expander"
+	"github.com/navaneethrameshan/circl/internal/test"
+	"github.com/navaneethrameshan/circl/xof"
 )
 
 func TestExpander(t *testing.T) {

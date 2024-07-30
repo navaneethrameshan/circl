@@ -27,7 +27,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/cloudflare/circl/internal/sha3"
+	"github.com/navaneethrameshan/circl/internal/sha3"
 )
 
 type Proof struct {

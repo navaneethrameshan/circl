@@ -8,7 +8,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/cloudflare/circl/internal/conv"
+	"github.com/navaneethrameshan/circl/internal/conv"
 )
 
 var (

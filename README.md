@@ -2,7 +2,7 @@
 
 # CIRCL
 
-[![GitHub release](https://img.shields.io/github/release/cloudflare/circl.svg)](https://GitHub.com/cloudflare/circl/releases/)
+[![GitHub release](https://img.shields.io/github/release/cloudflare/circl.svg)](https://github.com/cloudflare/circl/releases/)
 [![CIRCL](https://github.com/cloudflare/circl/workflows/CIRCL/badge.svg)](https://github.com/cloudflare/circl/actions)
 [![GoDoc](https://godoc.org/github.com/cloudflare/circl?status.svg)](https://pkg.go.dev/github.com/cloudflare/circl?tab=overview)
 [![Go Report Card](https://goreportcard.com/badge/github.com/cloudflare/circl)](https://goreportcard.com/report/github.com/cloudflare/circl)
@@ -22,7 +22,7 @@ Curve Cryptography (ECC).
 You can get CIRCL by fetching:
 
 ```sh
-go get -u github.com/cloudflare/circl
+go get -u github.com/navaneethrameshan/circl
 ```
 
 Alternatively, look at the [Cloudflare Go](https://github.com/cloudflare/go/tree/cf) fork to see how to integrate CIRCL natively in Go.

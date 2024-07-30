@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudflare/circl/group"
-	"github.com/cloudflare/circl/internal/test"
+	"github.com/navaneethrameshan/circl/group"
+	"github.com/navaneethrameshan/circl/internal/test"
 )
 
 type commonClient interface {

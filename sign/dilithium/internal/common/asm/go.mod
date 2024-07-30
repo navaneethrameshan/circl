@@ -1,9 +1,9 @@
-module github.com/cloudflare/circl/sign/dilithium/internal/common/asm
+module github.com/navaneethrameshan/circl/sign/dilithium/internal/common/asm
 
 go 1.21
 
 require (
-	github.com/cloudflare/circl v1.3.7
+	github.com/navaneethrameshan/circl v1.3.7
 	github.com/mmcloughlin/avo v0.6.0
 )
 
@@ -12,4 +12,4 @@ require (
 	golang.org/x/tools v0.17.0 // indirect
 )
 
-replace github.com/cloudflare/circl => ../../../../../
+replace github.com/navaneethrameshan/circl => ../../../../../

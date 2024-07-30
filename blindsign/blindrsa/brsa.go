@@ -29,8 +29,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/cloudflare/circl/blindsign/blindrsa/internal/common"
-	"github.com/cloudflare/circl/blindsign/blindrsa/internal/keys"
+	"github.com/navaneethrameshan/circl/blindsign/blindrsa/internal/common"
+	"github.com/navaneethrameshan/circl/blindsign/blindrsa/internal/keys"
 )
 
 type Variant int

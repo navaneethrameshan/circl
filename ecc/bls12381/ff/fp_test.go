@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudflare/circl/internal/test"
+	"github.com/navaneethrameshan/circl/internal/test"
 )
 
 func randomFp(t testing.TB) *Fp {

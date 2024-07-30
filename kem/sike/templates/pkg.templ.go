@@ -19,9 +19,9 @@ import (
 	"crypto/subtle"
 	"io"
 
-	"github.com/cloudflare/circl/dh/sidh"
-	"github.com/cloudflare/circl/internal/sha3"
-	"github.com/cloudflare/circl/kem"
+	"github.com/navaneethrameshan/circl/dh/sidh"
+	"github.com/navaneethrameshan/circl/internal/sha3"
+	"github.com/navaneethrameshan/circl/kem"
 )
 
 

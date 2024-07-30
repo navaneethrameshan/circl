@@ -8,15 +8,23 @@
 // as submitted to round3 of the NIST PQC competition and described in
 //
 // https://pq-crystals.org/dilithium/data/dilithium-specification-round3-20210208.pdf
-package {{.Pkg}}
+package
+
+import (
+	"crypto"
+	"errors"
+	"github.com/navaneethrameshan/circl/sign/dilithium/internal/common"
+	"io"
+)
+{{.Pkg}}
 
 import (
 	"crypto"
 	"errors"
 	"io"
 
-	"github.com/cloudflare/circl/sign/dilithium/internal/common"
-	"github.com/cloudflare/circl/sign/dilithium/{{.Pkg}}/internal"
+	"github.com/navaneethrameshan/circl/sign/dilithium/internal/common"
+	"github.com/navaneethrameshan/circl/sign/dilithium/{{.Pkg}}/internal"
 )
 
 const (

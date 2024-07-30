@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/cloudflare/circl/group"
-	"github.com/cloudflare/circl/secretsharing"
+	"github.com/navaneethrameshan/circl/group"
+	"github.com/navaneethrameshan/circl/secretsharing"
 )
 
 func ExampleSecretSharing() {
