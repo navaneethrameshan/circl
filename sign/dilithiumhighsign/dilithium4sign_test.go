@@ -2,7 +2,7 @@ package dilithiumhighsign_test
 
 import (
 	"encoding/binary"
-	"github.com/cloudflare/circl/sign/dilithiumhighsign"
+	"github.com/navaneethrameshan/circl/sign/dilithiumhighsign"
 	"testing"
 )
 

@@ -1,7 +1,7 @@
 package eddilithium4_test
 
 import (
-	"github.com/cloudflare/circl/sign/eddilithium4"
+	"github.com/navaneethrameshan/circl/sign/eddilithium4"
 
 	"encoding/binary"
 	"testing"

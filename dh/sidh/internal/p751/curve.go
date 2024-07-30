@@ -4,7 +4,7 @@
 package p751
 
 import (
-	. "github.com/cloudflare/circl/dh/sidh/internal/common"
+	. "github.com/navaneethrameshan/circl/dh/sidh/internal/common"
 )
 
 // Stores isogeny 3 curve constants

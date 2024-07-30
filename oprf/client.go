@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"errors"
 
-	"github.com/cloudflare/circl/group"
+	"github.com/navaneethrameshan/circl/group"
 )
 
 // Client is a representation of a OPRF client during protocol execution.

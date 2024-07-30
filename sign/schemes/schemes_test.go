@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudflare/circl/sign"
-	"github.com/cloudflare/circl/sign/schemes"
+	"github.com/navaneethrameshan/circl/sign"
+	"github.com/navaneethrameshan/circl/sign/schemes"
 )
 
 func TestCaseSensitivity(t *testing.T) {
@@ -117,6 +117,7 @@ func Example() {
 	// Ed448
 	// Ed25519-Dilithium3
 	// Ed448-Dilithium4
+	// Dilithium4
 }
 
 func BenchmarkGenerateKeyPair(b *testing.B) {

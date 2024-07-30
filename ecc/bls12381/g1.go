@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cloudflare/circl/ecc/bls12381/ff"
-	"github.com/cloudflare/circl/group"
+	"github.com/navaneethrameshan/circl/ecc/bls12381/ff"
+	"github.com/navaneethrameshan/circl/group"
 )
 
 // G1Size is the length in bytes of an element in G1 in uncompressed form..

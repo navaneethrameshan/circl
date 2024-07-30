@@ -6,7 +6,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/cloudflare/circl/xof"
+	"github.com/navaneethrameshan/circl/xof"
 )
 
 type Expander interface {

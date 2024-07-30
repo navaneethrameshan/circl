@@ -1,7 +1,7 @@
 package eddilithium3_test
 
 import (
-	"github.com/cloudflare/circl/sign/eddilithium3"
+	"github.com/navaneethrameshan/circl/sign/eddilithium3"
 
 	"encoding/binary"
 	"testing"

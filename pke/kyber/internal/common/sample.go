@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/cloudflare/circl/internal/sha3"
-	"github.com/cloudflare/circl/simd/keccakf1600"
+	"github.com/navaneethrameshan/circl/internal/sha3"
+	"github.com/navaneethrameshan/circl/simd/keccakf1600"
 
 	"encoding/binary"
 )

@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cloudflare/circl/internal/conv"
-	"github.com/cloudflare/circl/internal/test"
-	fp "github.com/cloudflare/circl/math/fp448"
+	"github.com/navaneethrameshan/circl/internal/conv"
+	"github.com/navaneethrameshan/circl/internal/test"
+	fp "github.com/navaneethrameshan/circl/math/fp448"
 )
 
 func getModulus() *big.Int {

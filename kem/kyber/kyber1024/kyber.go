@@ -8,9 +8,9 @@
 package kyber1024
 
 import (
-	"github.com/cloudflare/circl/internal/sha3"
-	"github.com/cloudflare/circl/kem"
-	cpapke "github.com/cloudflare/circl/pke/kyber/kyber1024"
+	"github.com/navaneethrameshan/circl/internal/sha3"
+	"github.com/navaneethrameshan/circl/kem"
+	cpapke "github.com/navaneethrameshan/circl/pke/kyber/kyber1024"
 
 	"bytes"
 	cryptoRand "crypto/rand"

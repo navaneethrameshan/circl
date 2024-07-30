@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudflare/circl/ecc/p384"
-	"github.com/cloudflare/circl/internal/test"
+	"github.com/navaneethrameshan/circl/ecc/p384"
+	"github.com/navaneethrameshan/circl/internal/test"
 )
 
 func TestIsOnCurveTrue(t *testing.T) {

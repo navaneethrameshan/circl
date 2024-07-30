@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	. "github.com/cloudflare/circl/dh/sidh/internal/common"
+	. "github.com/navaneethrameshan/circl/dh/sidh/internal/common"
 )
 
 func vartimeEqProjFp2(lhs, rhs *ProjectivePoint) bool {

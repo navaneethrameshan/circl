@@ -5,11 +5,11 @@ import (
 	"crypto"
 	cryptoRand "crypto/rand"
 	"errors"
-	"github.com/cloudflare/circl/sign/dilithium/mode4"
+	"github.com/navaneethrameshan/circl/sign/dilithium/mode4"
 	"io"
 
-	"github.com/cloudflare/circl/internal/sha3"
-	"github.com/cloudflare/circl/sign"
+	"github.com/navaneethrameshan/circl/internal/sha3"
+	"github.com/navaneethrameshan/circl/sign"
 )
 
 const (

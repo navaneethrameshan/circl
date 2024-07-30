@@ -5,7 +5,7 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/cloudflare/circl/hpke"
+	"github.com/navaneethrameshan/circl/hpke"
 )
 
 func Example() {

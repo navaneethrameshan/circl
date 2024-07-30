@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudflare/circl/kem/schemes"
+	"github.com/navaneethrameshan/circl/kem/schemes"
 )
 
 func TestCaseSensitivity(t *testing.T) {

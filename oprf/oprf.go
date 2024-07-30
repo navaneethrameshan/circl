@@ -20,7 +20,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/cloudflare/circl/group"
+	"github.com/navaneethrameshan/circl/group"
 )
 
 const (

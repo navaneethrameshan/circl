@@ -14,15 +14,15 @@ package schemes
 import (
 	"strings"
 
-	"github.com/cloudflare/circl/hpke"
-	"github.com/cloudflare/circl/kem"
-	"github.com/cloudflare/circl/kem/hybrid"
-	"github.com/cloudflare/circl/kem/kyber/kyber1024"
-	"github.com/cloudflare/circl/kem/kyber/kyber512"
-	"github.com/cloudflare/circl/kem/kyber/kyber768"
-	"github.com/cloudflare/circl/kem/sike/sikep434"
-	"github.com/cloudflare/circl/kem/sike/sikep503"
-	"github.com/cloudflare/circl/kem/sike/sikep751"
+	"github.com/navaneethrameshan/circl/hpke"
+	"github.com/navaneethrameshan/circl/kem"
+	"github.com/navaneethrameshan/circl/kem/hybrid"
+	"github.com/navaneethrameshan/circl/kem/kyber/kyber1024"
+	"github.com/navaneethrameshan/circl/kem/kyber/kyber512"
+	"github.com/navaneethrameshan/circl/kem/kyber/kyber768"
+	"github.com/navaneethrameshan/circl/kem/sike/sikep434"
+	"github.com/navaneethrameshan/circl/kem/sike/sikep503"
+	"github.com/navaneethrameshan/circl/kem/sike/sikep751"
 )
 
 var allSchemes = [...]kem.Scheme{

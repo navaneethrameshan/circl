@@ -3,7 +3,7 @@ package oprf
 import (
 	"io"
 
-	"github.com/cloudflare/circl/group"
+	"github.com/navaneethrameshan/circl/group"
 )
 
 type PrivateKey struct {

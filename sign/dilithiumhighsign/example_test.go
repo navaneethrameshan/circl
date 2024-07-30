@@ -2,7 +2,7 @@ package dilithiumhighsign_test
 
 import (
 	"fmt"
-	"github.com/cloudflare/circl/sign/dilithiumhighsign"
+	"github.com/navaneethrameshan/circl/sign/dilithiumhighsign"
 )
 
 func Example() {

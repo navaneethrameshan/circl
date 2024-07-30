@@ -5,7 +5,7 @@ import (
 	"crypto/subtle"
 	"errors"
 
-	"github.com/cloudflare/circl/group"
+	"github.com/navaneethrameshan/circl/group"
 )
 
 // Server is a representation of a OPRF server during protocol execution.
