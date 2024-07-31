@@ -10,6 +10,7 @@
 package schemes
 
 import (
+	"github.com/navaneethrameshan/circl/sign/dilithium2scheme"
 	"github.com/navaneethrameshan/circl/sign/dilithium3scheme"
 	"github.com/navaneethrameshan/circl/sign/dilithium5scheme"
 	"strings"
@@ -28,6 +29,7 @@ var allSchemes = [...]sign.Scheme{
 	eddilithium3.Scheme(),
 	dilithium5scheme.Scheme(),
 	dilithium3scheme.Scheme(),
+	dilithium2scheme.Scheme(),
 }
 
 var allSchemeNames map[string]sign.Scheme
